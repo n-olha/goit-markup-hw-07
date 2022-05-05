@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--dark-grey-color);
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+
+}
+
+address {
+    font-style: normal;
+}
+
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+button {
+    cursor: pointer;
+}
+
+section {
+    padding-bottom: 94px;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
